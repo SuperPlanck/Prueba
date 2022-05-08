@@ -477,6 +477,7 @@ if Temas == 'Refracción':
             }))
     st.write("**¿Por qué la luz es más lenta en vidrio?**")
     st.write("Cuando las ondas de luz pasan a traves del medio, en el caso del vidrio, la onda que pasa por ahi empieza a hacer que vibren los átomos del material")
+    st.image("unknown.png")
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
