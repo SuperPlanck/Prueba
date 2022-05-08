@@ -218,8 +218,7 @@ if Temas == 'Experimento de la doble rendija':
     st.write('Un Ejemplo')
     st.write('Una luz de longitud de onda de 700nm brilla a través de una rendija doble donde sus hoyos son 200nm de largo y están separadas por 1,300nm. Si una pantalla esta colocada 3m de las rendijas¿Cuál va a ser la distancia del punto más brilloso central al siguiente punto de luz?')
     st.write('Respuesta:')
-    x = sin(130)
-    x
+    
     
 if Temas == 'Difracción':
     st.write("Porfavor")
