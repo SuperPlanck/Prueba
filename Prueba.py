@@ -252,15 +252,15 @@ if Temas == 'Experimento de la doble rendija':
         st.image("1.jpg")
     else:
         st.write("")
-    if Distancia < 30:
+    if 15 < Distancia < 30:
         st.image("2.jpg")
     else:
         st.write("")
-    if Distancia < 45:
+    if 30 < Distancia < 45:
         st.image("3.jpg")
     else:
         st.write("")
-    if Distancia <64:
+    if 45 < Distancia <64:
         st.image("4.jpg")
     else:
         st.write("")    
