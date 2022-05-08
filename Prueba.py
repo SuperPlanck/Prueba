@@ -459,4 +459,14 @@ if Temas == 'Refracción':
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
+    st.write("**¿Por qué las ondas de microondas no están enseguida de las ultravioletas si son capaces de causarnos daño?**")
+    st.write("La microondas emiten ondas que hacen vibrar las párticulas del agua aumentando su temperatura mientras que las ondas de rayos x y UV cargan tanta energía quer son capaces de romper los enlaces de tus moléculas, la exposición continua a estas puede causar cáncer")
+    st.write("Las ondas con freciencias menores nos afectan por como hacen vibrar las moléculas del agua ya que resonan de la misma manera de la vibración del agua")
+    st.write("Nuestro cuerpo está formado en un ambiente donde las ondas EM visibles son abundantes, por lo tanto no nos afectan.")
+    st.write("**¿De dónde salen las ondas electromagnéticas?**")
+    st.write("Las ondas son la propagación de una perturbación en el campo electromagnético causado por la vibración de cargas.")
+    st.write("Considera un par de cargas en el espacio; después al mover una de ellas la otra no se -percata- instantaneamente del cambio, esa información le va a llegar a la velocidad de la luz, cada vez que tienes una carga vibrando en una frecuencia alta, empieza a perturbar el campo electromagnético en forma de ondas")
+    st.write("**¿Cómo es que se comporta como una párticula y como una onda?**")
+    st.write("En algunos instantes vemos la luz comportandose como una onda en la refracción, interferencia y a veces como partículas como en el efecto fotoeléctrico")
+
 
