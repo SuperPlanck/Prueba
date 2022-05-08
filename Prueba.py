@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+import math
 
 st.set_page_config(page_title="Óptica Cuántica",page_icon="🎇")
 
