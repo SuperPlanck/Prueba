@@ -470,6 +470,7 @@ if Temas == 'Refracción':
     st.image("https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/physics/see-the-light/broken-straw/5419495-3-eng-US/broken-straw.jpg")
     st.write("Cuando la luz pasa de un medio más rápido a uno más lento, el ángulo de incidencia va a ser mayor que el de refracción")
     st.write("El ángulo de incidencia se puede calcular con la **Ley de Snell**")
+    st.image("https://personal.math.ubc.ca/~cass/courses/m309-01a/chu/Fundamentals/snell01.gif")
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
