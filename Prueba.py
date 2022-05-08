@@ -7,7 +7,7 @@ st.set_page_config(page_title="Óptica Cuántica",page_icon="🎇")
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
-page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Experimento de la doble rendija','Difracción','Reflexión','Refracción']
+page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Experimento de la doble rendija','Difracción','Reflexión','Refracción','Datos extras de las ondas']
 
 Temas = st.sidebar.radio("Escoge el tema",page_names)      
 
@@ -174,7 +174,8 @@ if Temas == 'Efecto Fotoeléctrico':
         st.markdown('![Alt Text](https://i.pinimg.com/originals/c1/4f/b5/c14fb5f3ad4a890f9296c2f842068463.gif)')
 
     with col3:
-        st.write("")    
+        st.write("")
+        
  
 if Temas == 'Ecuaciones de Maxwell':
     st.header("Ecuaciones de Maxwell")
@@ -266,16 +267,16 @@ if Temas == 'Experimento de la doble rendija':
     else:
         st.write("")  
       
-
-
-    
-    
 if Temas == 'Difracción':
-    st.write("Porfavor")
+    st.header("Difracción")
+
 
 if Temas == 'Reflexión':
     st.write("")
 
 if Temas == 'Refracción':
     st.write("refraccion")
+
+if Temas == 'Datos extras de las ondas'
+    st.header("Datos extras de las ondas")
 
