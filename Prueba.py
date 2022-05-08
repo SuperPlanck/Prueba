@@ -284,8 +284,14 @@ if Temas == 'Difracción':
         st.image("https://mujeresconciencia.com/app/uploads/2016/05/Dorothy_Hodgkin.jpg")
         st.write("Ella determinó la estructura de la Penicilina y la Vitamina B12 por medio de cristalografía de rayos x")
         st.write("Esto dió lugar a otros analisis de patrones de difracción como el de las proteínas y otras moléculas, estos se realizan poniendo la muestra cristalina y sometiendola a un rayo de alta intensidad que por lo general suele ser de rayos x")
-        if st.button("Patrones de difracción"):
-            st.image("https://cnx.org/resources/20b4b8e0168690b7c97c936d8ee8c5c2a2f1ada9/Diffraction", caption="Patrón de difracción de una enzima")
+    if st.button("Patrones de difracción"):
+        st.image("https://cnx.org/resources/20b4b8e0168690b7c97c936d8ee8c5c2a2f1ada9/Diffraction", caption="Patrón de difracción de una enzima")
+        st.image("https://cnx.org/resources/f7d9cce4d6aa00fbae13d576252dde7545f29c97/Powder", caption="Patrón de difracción del silicio")
+    if st.button("Cristales de moléculas"):
+        st.image("https://cnx.org/resources/bbab3410b756781b28bfd38b9d293525b9f76368/Insulin%20crystals", caption="Cristales de insulina")
+        st.image("https://cnx.org/resources/9491193edbd0ab2e784b580c295c4ce2328002fe/Chrome%20alum", caption="Cristales de Alumbre de cromo")
+        st.image("https://cnx.org/resources/5f2097426608b73d32edc90a1a2fb3116a3d1211/Twinned%20crystal", caption="Cristales de Cuarzo")
+
         
 
 
