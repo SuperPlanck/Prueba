@@ -475,6 +475,8 @@ if Temas == 'Refracción':
             'Material':["Vacío","Agua","Aire","Vidrio","Aceite","Vidrio Templado", "Safiro","Diamante"],
             'Indice de refracción(n)':[1,1.33,1.00029,1.52,1.53,1.65,1.77,2.42],
             }))
+    st.write("**¿Por qué la luz es más lenta en vidrio?**")
+    st.write("Cuando las ondas de luz pasan a traves del medio, en el caso del vidrio, la onda que pasa por ahi empieza a hacer que vibren los átomos del material")
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
