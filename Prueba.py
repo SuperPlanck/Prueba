@@ -271,6 +271,10 @@ if Temas == 'Difracción':
     st.header("Difracción")
     st.write("La difracción se presenta cuando una onda se distorsiona al pasar por un obstáculo como una pantalla con una pequeña apertura")
     ("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/2/21/One_wave_slit_diffraction_dirichlet_bw.gif)")
+    st.write("Mientras mas hoyos tenga la pared por donde pasa más notorio va a ser la interferencia constructivamente.")
+    st.write("Cuando hay muchos puntos y se ve todo más claro lo llamamos **Red de difracción**")
+    st.image("https://www.researchgate.net/publication/332921550/figure/fig1/AS:756117697224705@1557283915708/FIGURA-5-a-b-c-Patrones-de-difraccion-de-convolucion-grabados-en-la-region-de.ppm")
+    st.write("Pero **¿Por qué las ondas se difractan cuando pasan por un hoyo?**")
     
 
 
