@@ -275,7 +275,9 @@ if Temas == 'Difracción':
     st.write("Cuando hay muchos puntos y se ve todo más claro lo llamamos **Red de difracción**")
     st.image("https://www.researchgate.net/publication/332921550/figure/fig1/AS:756117697224705@1557283915708/FIGURA-5-a-b-c-Patrones-de-difraccion-de-convolucion-grabados-en-la-region-de.ppm", width=700)
     st.write("Pero **¿Por qué las ondas se difractan cuando pasan por un hoyo?**")
-    
+    st.write("Por algo que llamamos el **Principio de Huygens**, el cual nos dice que una onda se puede dividir en muchas difracciones que por interferencia forman la misma onda, por lo tanto si pasa por un hoyo o una rendija, esas divisiones de la onda original van a presentar interferencias, formando un patron de inferferencia")
+    st.write("Si la distancia del hoyo des mas grande a la longitud de la onda, los rayos siguen en una trayectoria en línea recta, si la distancia es muy similar a la longitud, esta se extiende al pasar por la apertura y finalmente si la distancia es menor a la longitud, la apertura se comporta como fuente puntual que emite ondas esféricas")
+    st.image("Aperturas.png")
 
 
 if Temas == 'Reflexión':
