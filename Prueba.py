@@ -282,6 +282,8 @@ if Temas == 'Difracción':
         st.write("Los patrones de difracción han sido utilizados para analizar las formas de las moléculas")
         st.write("Un gran ejemplo es la ganadora del premio novel de química **Dorothy Hodgkin**")
         st.image("https://mujeresconciencia.com/app/uploads/2016/05/Dorothy_Hodgkin.jpg")
+        st.write("Ella determinó la estructura de la Penicilina y la Vitamina B12 por medio de cristalografia de rayos x")
+        
 
 
 if Temas == 'Reflexión':
