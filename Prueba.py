@@ -87,7 +87,7 @@ if Temas == 'Introducción':
     st.write('A esto se le llamó la catástrofe ultravioleta')
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
     st.write('Planck observó que la materia absorbía o emitía la energia en multiplos enteros del valor de la constante de Planck, pequeños paquetes conocidos como cuántos, por lo que Einstein propuso su teoría del efecto fotoeléctrico')
-    st.latex('h=6.626^{-34}J')
+    st.latex('h=6.626^{-34}Js')
     st.caption('El efecto fotoeléctrico nos dice que si un electrón absorbe la energía de un fotón y este tiene más energía que la función del trabajo el electrón es arrancado del material, explicando porque los materiales no absorben energia hasta emitir ondas de alta energía')
     st.write('Los fotones pueden ser emitidos o absorbidos por los átomos, se absorben por completo y al momento de que el átomo pierde energía se emiten, cargando con la energía exacta que se perdió la cual es directamente proporcional a su frecuencia.')
     st.write('Eso demostró que la luz se comporta también como una partícula')
@@ -282,7 +282,10 @@ if Temas == 'Difracción':
         st.write("Los patrones de difracción han sido utilizados para analizar las formas de las moléculas")
         st.write("Un gran ejemplo es la ganadora del premio novel de química **Dorothy Hodgkin**")
         st.image("https://mujeresconciencia.com/app/uploads/2016/05/Dorothy_Hodgkin.jpg")
-        st.write("Ella determinó la estructura de la Penicilina y la Vitamina B12 por medio de cristalografia de rayos x")
+        st.write("Ella determinó la estructura de la Penicilina y la Vitamina B12 por medio de cristalografía de rayos x")
+        st.write("Esto dió lugar a otros analisis de patrones de difracción como el de las proteínas y otras moléculas")
+        if st.button("Patrón de difracción 1")
+            st.image("")
         
 
 
