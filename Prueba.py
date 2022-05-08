@@ -176,7 +176,6 @@ if Temas == 'Efecto Fotoeléctrico':
     with col3:
         st.write("")
         
- 
 if Temas == 'Ecuaciones de Maxwell':
     st.header("Ecuaciones de Maxwell")
 
@@ -292,11 +291,8 @@ if Temas == 'Difracción':
         st.image("https://cnx.org/resources/9491193edbd0ab2e784b580c295c4ce2328002fe/Chrome%20alum", caption="Cristales de Alumbre de cromo")
         st.image("https://cnx.org/resources/5f2097426608b73d32edc90a1a2fb3116a3d1211/Twinned%20crystal", caption="Cristales de Cuarzo")
 
-        
-
-
 if Temas == 'Reflexión':
-    st.write("")
+    st.header("Reflexión")
 
 if Temas == 'Refracción':
     st.write("refraccion")
