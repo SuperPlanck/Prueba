@@ -248,8 +248,14 @@ if Temas == 'Experimento de la doble rendija':
     xm = st.number_input('Escoge los metros de separación', min_value=1,max_value=100)
     Distancia = xm*0.6387891
     st.write("La distancia entre el punto de luz central y el siguiente es de", Distancia, "Metros")
-    if Distancia < 20:
-        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3Ge4ancu9BxKYd0dujnCbjOOVkO4qG7HjEzi3zpUixVV62tGTAfq5GLgm6Z0oEh11A&usqp=CAU")
+    if Distancia < 15:
+        st.image("1.jpg")
+    if Distancia < 30:
+        st.image("2.jpg")
+    if Distancia < 45:
+        st.image("3.jpg")
+    if Distancia <64
+        st.image("4.jpg")    
 
 
     
