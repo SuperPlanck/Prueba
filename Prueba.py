@@ -246,7 +246,7 @@ if Temas == 'Experimento de la doble rendija':
     st.write('Respuesta:')
     xm = st.number_input('Escoge los metros de separación')
     Distancia = xm*0.6387891
-    st.write("La distancia entre el punto de luz central y el siguiente es de", Distancia)
+    st.write("La distancia entre el punto de luz central y el siguiente es de", Distancia, "Metros")
 
 
     
