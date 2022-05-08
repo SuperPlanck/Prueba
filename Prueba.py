@@ -7,7 +7,7 @@ st.set_page_config(page_title="Óptica Cuántica",page_icon="🎇")
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 st.header("Óptica Cuántica")
-page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Experimento de la doble rendija','Difracción','Reflexión','Refracción','Datos extras de las ondas']
+page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Experimento de la doble rendija','Difracción','Reflexión','Refracción','Datos extras de las ondas','Información']
 
 Temas = st.sidebar.radio("Escoge el tema",page_names)      
 
@@ -494,4 +494,10 @@ if Temas == 'Datos extras de las ondas':
     st.write("**¿Cómo es que se comporta como una párticula y como una onda?**")
     st.write("En algunos instantes vemos la luz comportandose como una onda en la refracción, interferencia y a veces como partículas como en el efecto fotoeléctrico")
 
-
+if Temas == 'Información':
+    st.header("Integrantes")
+    st.subheader("LosPlancks")
+    st.write("Dania Veleta De La O ")
+    st.write("Yazmin Itzel Ontiveros Macias")
+    st.write("Maximiliano Chavira Hernández")
+    st.write("Ruth Estela Chyavira López")
