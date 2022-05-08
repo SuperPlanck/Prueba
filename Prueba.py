@@ -269,6 +269,9 @@ if Temas == 'Experimento de la doble rendija':
       
 if Temas == 'Difracción':
     st.header("Difracción")
+    st.write("La difracción se presenta cuando una onda se distorsiona al pasar por un obstáculo como una pantalla con una pequeña apertura")
+    ("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/2/21/One_wave_slit_diffraction_dirichlet_bw.gif)")
+    
 
 
 if Temas == 'Reflexión':
