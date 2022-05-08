@@ -244,10 +244,11 @@ if Temas == 'Experimento de la doble rendija':
     st.write('Un Ejemplo')
     st.write('Una luz de longitud de onda de 700nm brilla a través de una rendija doble donde sus hoyos son 200nm de largo y están separadas por 1,300nm. Si una pantalla esta colocada a "Distancia de separacón" de las rendijas¿Cuál va a ser la distancia del punto más brilloso central al siguiente punto de luz?')
     st.write('Respuesta:')
-    xm = st.number_input('Escoge los metros de separación')
+    st.image("Distancia.jpg")
+    xm = st.number_input('Escoge los metros de separación', min_value=1,max_value=100)
     Distancia = xm*0.6387891
     st.write("La distancia entre el punto de luz central y el siguiente es de", Distancia, "Metros")
-    st.image("Distancia.jpg")
+    if Distancia < 20
 
 
     
