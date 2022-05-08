@@ -494,7 +494,7 @@ if Temas == 'Datos extras de las ondas':
     st.write("**¿Cómo es que se comporta como una párticula y como una onda?**")
     st.write("En algunos instantes vemos la luz comportandose como una onda en la refracción, interferencia y a veces como partículas como en el efecto fotoeléctrico")
 
-if Temas == 'Información':
+if Temas == 'Información Integrantes':
     st.header("Integrantes")
     st.subheader("LosPlancks")
     st.write("Dania Veleta De La O ")
