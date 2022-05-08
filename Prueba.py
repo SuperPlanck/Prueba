@@ -478,6 +478,9 @@ if Temas == 'Refracción':
     st.write("**¿Por qué la luz es más lenta en vidrio?**")
     st.write("Cuando las ondas de luz pasan a traves del medio, en el caso del vidrio, la onda que pasa por ahi empieza a hacer que vibren los átomos del material")
     st.image("unknown.png",width=600)
+    st.write("Cuando empiezas a mover estas cargas eléctricas, cada átomo va a terminar produciendo ondas electromagnéticas propias")
+    st.write("Luego la superposición de la onda original con las nuevas ondas que se están creando, cuando las sumas todas terminas con la onda que esta viajando a otra velocidad menor a la de la luz originalmente")
+    st.image("unknown2.png")
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
