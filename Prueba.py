@@ -466,7 +466,10 @@ if Temas == 'Reflexión':
 
 if Temas == 'Refracción':
     st.header("Refraccion")
-    st.write("")
+    st.write("La refracción sucede cuando una onda electromagnética viaja de un medio a otro, su frecuencia no cambia pero su velocidad y longitud de onda si")
+    st.image("https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/physics/see-the-light/broken-straw/5419495-3-eng-US/broken-straw.jpg")
+    st.write("Cuando la luz pasa de un medio más rápido a uno más lento, el ángulo de incidencia va a ser mayor que el de refracción")
+    st.write("El ángulo de incidencia se puede calcular con la **Ley de Snell**")
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
