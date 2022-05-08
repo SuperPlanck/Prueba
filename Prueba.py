@@ -471,6 +471,10 @@ if Temas == 'Refracción':
     st.write("Cuando la luz pasa de un medio más rápido a uno más lento, el ángulo de incidencia va a ser mayor que el de refracción")
     st.write("El ángulo de incidencia se puede calcular con la **Ley de Snell**")
     st.image("https://personal.math.ubc.ca/~cass/courses/m309-01a/chu/Fundamentals/snell01.gif", width=600)
+    st.write("Materiales",pd.DataFrame({
+            'Material':["Vacío","Agua","Aire","Vidrio","Aceite","Vidrio Templado", "Safiro","Diamante"],
+            'Indice de refracción':[1,1.33,1.00029,1.52,1.53,1.65,1.77,2.42],
+            }))
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
