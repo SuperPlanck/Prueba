@@ -250,12 +250,20 @@ if Temas == 'Experimento de la doble rendija':
     st.write("La distancia entre el punto de luz central y el siguiente es de", Distancia, "Metros")
     if Distancia < 15:
         st.image("1.jpg")
+    else:
+        st.write("")
     if Distancia < 30:
         st.image("2.jpg")
+    else:
+        st.write("")
     if Distancia < 45:
         st.image("3.jpg")
+    else:
+        st.write("")
     if Distancia <64:
-        st.image("4.jpg")    
+        st.image("4.jpg")
+    else:
+        st.write("")    
 
 
     
