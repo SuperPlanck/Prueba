@@ -283,9 +283,9 @@ if Temas == 'Difracción':
         st.write("Un gran ejemplo es la ganadora del premio novel de química **Dorothy Hodgkin**")
         st.image("https://mujeresconciencia.com/app/uploads/2016/05/Dorothy_Hodgkin.jpg")
         st.write("Ella determinó la estructura de la Penicilina y la Vitamina B12 por medio de cristalografía de rayos x")
-        st.write("Esto dió lugar a otros analisis de patrones de difracción como el de las proteínas y otras moléculas")
-        if st.button("Patrón de difracción 1")
-            st.image("")
+        st.write("Esto dió lugar a otros analisis de patrones de difracción como el de las proteínas y otras moléculas, estos se realizan poniendo la muestra cristalina y sometiendola a un rayo de alta intensidad que por lo general suele ser de rayos x")
+        if st.button("Patrones de difracción")
+            st.image("https://cnx.org/resources/20b4b8e0168690b7c97c936d8ee8c5c2a2f1ada9/Diffraction", caption="Patrón de difracción de una enzima")
         
 
 
