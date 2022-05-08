@@ -6,7 +6,7 @@ import math
 st.set_page_config(page_title="Óptica Cuántica",page_icon="🎇")
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
-
+st.header("Óptica Cuántica")
 page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Experimento de la doble rendija','Difracción','Reflexión','Refracción','Datos extras de las ondas']
 
 Temas = st.sidebar.radio("Escoge el tema",page_names)      
