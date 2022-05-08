@@ -277,6 +277,6 @@ if Temas == 'Reflexión':
 if Temas == 'Refracción':
     st.write("refraccion")
 
-if Temas == 'Datos extras de las ondas'
+if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
 
