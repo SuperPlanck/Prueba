@@ -254,7 +254,7 @@ if Temas == 'Experimento de la doble rendija':
         st.image("2.jpg")
     if Distancia < 45:
         st.image("3.jpg")
-    if Distancia <64
+    if Distancia <64:
         st.image("4.jpg")    
 
 
