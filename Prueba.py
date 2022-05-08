@@ -263,7 +263,8 @@ if Temas == 'Experimento de la doble rendija':
     if 45 < Distancia <64:
         st.image("4.jpg")
     else:
-        st.write("")    
+        st.write("")  
+    st.text(Nota: a diferentes distancias la imagen cambia)  
 
 
     
