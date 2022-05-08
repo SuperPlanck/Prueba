@@ -453,9 +453,11 @@ if Temas == 'Difracción':
 
 if Temas == 'Reflexión':
     st.header("Reflexión")
+    st.write("**¿Qué es la reflexión?**")
+    st.write("")
 
 if Temas == 'Refracción':
-    st.write("refraccion")
+    st.header("refraccion")
 
 if Temas == 'Datos extras de las ondas':
     st.header("Datos extras de las ondas")
