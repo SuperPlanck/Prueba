@@ -178,7 +178,7 @@ if Temas == 'Efecto Fotoeléctrico':
         
 if Temas == 'Ecuaciones de Maxwell':
     st.header("Ecuaciones de Maxwell")
-    st.markdown("<h1 style='color:green;'>Ley de Gauss</h1>", unsafe_allow_html=True)
+    st.subheader("Ley de Gauss")
     st.latex(r'''
         \overrightarrow{\nabla}* \overrightarrow{E} = \frac{\rho}{\epsilon_0}   
     ''')
@@ -188,7 +188,7 @@ if Temas == 'Ecuaciones de Maxwell':
     Captura que el campo eléctrico decae con la distancia y lo hace
     de una manera muy precisa: con el cuadrado de la distancia.""")
 
-    st.subheader('¿Para que sirve?')
+    st.write('**¿Para que sirve?**')
     st. write ("""La ley de gauss tiene su máxima utilidad para calcular el campo eléctrico en situaciones donde
     la distribución de carga tiene simetría esférica, cilíndrica o está distribuida uniformemente en un plano o en una placa infinita.""")
     st.image(["images.png","SUPERFICIE CILIDRICA.png"]) 
@@ -241,7 +241,7 @@ if Temas == 'Ecuaciones de Maxwell':
     with col2:
         st.image ("Imagen9.png")
 
-    st.markdown("<h1 style='color:green;'>Ley de Gauss para el magnetismo</h1>", unsafe_allow_html=True)
+    st.subheader("Ley de Gauss para el magnetismo")
 
     st.latex(r'''
         \overrightarrow{\nabla}* \overrightarrow{B} = 0 
@@ -269,7 +269,7 @@ if Temas == 'Ecuaciones de Maxwell':
     el campo se cierra en la zona que has cortado, devolviendote dos imanes con dos polos cada
     uno. 
     En nuestro mundo los monopolos son imposibles (si existieran las ecuaciones de Maxwell podrian ser expresadas en una sola ecuación.""")
-    st.markdown("<h1 style='color:green;'>Ley de Faraday y Lenz</h1>", unsafe_allow_html=True)
+    st.subheader("Ley de Faraday y Lenz")
     st.latex(r'''
         \overrightarrow{\nabla}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
     ''')
@@ -290,7 +290,7 @@ if Temas == 'Ecuaciones de Maxwell':
     también pueden hacerlo entre ellos.""")
 
     st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
-    st.markdown("<h1 style='color:green;'>La ley de Ampére</h1>", unsafe_allow_html=True)
+    st.subheader("La ley de Ampére")
 
     col1, col2, col3 = st.columns([6,6,6])
     with col2:
