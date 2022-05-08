@@ -278,6 +278,10 @@ if Temas == 'Difracción':
     st.write("Por algo que llamamos el **Principio de Huygens**, el cual nos dice que una onda se puede dividir en muchas difracciones que por interferencia forman la misma onda, por lo tanto si pasa por un hoyo o una rendija, esas divisiones de la onda original van a presentar interferencias, formando un patron de inferferencia")
     st.write("Si la distancia del hoyo des mas grande a la longitud de la onda, los rayos siguen en una trayectoria en línea recta, si la distancia es muy similar a la longitud, esta se extiende al pasar por la apertura y finalmente si la distancia es menor a la longitud, la apertura se comporta como fuente puntual que emite ondas esféricas")
     st.image("Aperturas.png")
+    if st.button("Aplicaciones de patrones de Difracción"):
+        st.write("Los patrones de difracción han sido utilizados para analizar las formas de las moléculas")
+        st.write("Un gran ejemplo es la ganadora del premio novel de química **Dorothy Hodgkin**")
+        st.image("https://mujeresconciencia.com/app/uploads/2016/05/Dorothy_Hodgkin.jpg")
 
 
 if Temas == 'Reflexión':
