@@ -264,7 +264,7 @@ if Temas == 'Experimento de la doble rendija':
         st.image("4.jpg")
     else:
         st.write("")  
-    st.text(Nota: a diferentes distancias la imagen cambia)  
+    st.text("Nota: a diferentes distancias la imagen cambia")  
 
 
     
