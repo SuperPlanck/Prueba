@@ -503,5 +503,5 @@ if Temas == 'Información Integrantes':
     st.caption("a344162@uach.mx")
     st.write("Maximiliano Chavira Hernández")
     st.caption("a349010@uach.mx")
-    st.write("Ruth Estela Chyavira López")
+    st.write("Ruth Estela Chavira López")
     st.caption("a349170@uach.mx")
